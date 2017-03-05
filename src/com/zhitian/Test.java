@@ -19,6 +19,7 @@ public class Test {
         new SelectionSort().mySort();
         new BubbleSort().mySort();
         new ShellSort().mySort();
+        new BucketSort().mySort();
 
     }
 
