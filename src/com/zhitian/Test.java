@@ -21,6 +21,7 @@ public class Test {
         new ShellSort().mySort();
         new BucketSort().mySort();
         new MergeSort().mySort();
+        new QuickSort().mySort();
 
     }
 
