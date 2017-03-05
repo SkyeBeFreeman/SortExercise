@@ -5,20 +5,19 @@ package com.zhitian;
  */
 public class InsertSort implements MySort {
 
+    public int[] a = {49, 38, 65, 97, 76, 13, 27, 49, 78, 34, 12, 64, 5, 4, 62, 99, 98, 54, 56, 17, 18, 23, 34, 15, 35, 25, 53, 51};
+
     @Override
-    public void mySort(int a[]) {
+    public void mySort() {
         int length = a.length;
         for (int i = 1; i < length; i++) {
-            if(a[i] < a[i-1]) {
-                int temp = a[i];
-                a[i] = a[i - 1];
-                int j = i - 2;
-                while (j >= 0 && a[j] > temp) { // 注意判断数组越界
-                    a[j + 1] = a[j];
-                    j--;
-                }
-                a[++j] = temp;
+            int j = i - 1;
+            int temp = a[i];
+            while (j >= 0 && a[j] > temp) { // 注意判断数组越界
+                a[j + 1] = a[j];
+                j--;
             }
+            a[++j] = temp;
         }
         Test.printAns("Insert sort", a);
     }

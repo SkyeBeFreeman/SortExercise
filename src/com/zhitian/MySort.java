@@ -5,6 +5,6 @@ package com.zhitian;
  */
 public interface MySort {
 
-    void mySort(int a[]);
+    void mySort();
 
 }
