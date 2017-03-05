@@ -20,6 +20,7 @@ public class Test {
         new BubbleSort().mySort();
         new ShellSort().mySort();
         new BucketSort().mySort();
+        new MergeSort().mySort();
 
     }
 
