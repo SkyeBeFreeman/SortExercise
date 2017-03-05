@@ -15,8 +15,10 @@ public class Test {
 
     public static void main(String[] args) {
 
-        InsertSort insertSort = new InsertSort();
-        insertSort.mySort();
+        new InsertSort().mySort();
+        new SelectionSort().mySort();
+
+
     }
 
 }
