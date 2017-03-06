@@ -26,7 +26,7 @@ public class HeapSort implements MySort {
         }
     }
 
-    private void maintainHeap(int[] a, int index, int length) {
+    private void maintainHeap(int[] a, int index, int length) { // 维护最大堆
         int temp = a[index];
         int child = 2 * index + 1; // 左子树的索引。注意！不是2*index，因为这是数组索引（从0开始）！
         while (child < length) {
