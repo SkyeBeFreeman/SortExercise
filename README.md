@@ -1,3 +1,3 @@
 # SortExercise
 
-Eight sorts of sort:)
+Eight sorts of sort :)

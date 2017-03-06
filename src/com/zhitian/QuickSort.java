@@ -31,7 +31,7 @@ public class QuickSort implements MySort {
                 right--;
             }
             a[left] = a[right];
-            while (left < right && a[left] <= temp) { // 注意判断<= 而不是>
+            while (left < right && a[left] <= temp) { // 注意判断<= 而不是<
                 left++;
             }
             a[right] = a[left];
