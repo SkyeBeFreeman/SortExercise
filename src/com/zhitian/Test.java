@@ -23,6 +23,7 @@ public class Test {
         new MergeSort().mySort();
         new QuickSort().mySort();
         new HeapSort().mySort();
+        new ZeroSwapSort().mySort();
 
     }
 
